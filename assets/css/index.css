@@ -44,10 +44,13 @@ span{
     color: white;
     width: 0;
     display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
 }
 
 li:hover span{
     width: 40px;
+    opacity: 1;
 }
 
 input{
@@ -57,6 +60,7 @@ input{
     width: inherit;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 input:focus{
