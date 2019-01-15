@@ -1,2 +1,6 @@
-var userInput = $("#userText").val();
-
+$("li").click(function () {
+    $(this).css({
+        color: "gray",
+        textDecoration: "line-through"
+    });
+});
