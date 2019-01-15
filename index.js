@@ -1,1 +1,2 @@
+var userInput = $("#userText").val();
 
