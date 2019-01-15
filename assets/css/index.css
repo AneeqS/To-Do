@@ -28,6 +28,21 @@ li:nth-child(2n){
     background-color: honeydew;
 }
 
+input{
+    font-size: 18px;
+    color: lightseagreen;
+    background-color: honeydew;
+    width: inherit;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    background-color: white;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
 #container{
     width: 360px;
     margin: 100px auto;
